@@ -70,3 +70,64 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.hero-titolo{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero h1{
+  color: white;
+  font-size: 45px;
+}
+.hero p{
+  color: white;
+  text-align: center;
+  margin: 15px 0 30px 0;
+}
+.hero img{
+  width: 150px;
+}
+
+
+/* MAIN */
+
+.logo-main{
+  width: 200px;
+  margin-top: 100px;
+}
+
+.descrizione{
+  font-size: 1.2rem;
+  margin: 20px 0 30px 0;
+}
+
+.link{
+  font-size: 1.2rem;
+}
+
+.bg-grey{
+  background-color: #FAFAFA;
+}
+
+.m-top-70{
+  margin-top: 70px;
+}
+
+.tx-center{
+  text-align: center;
+}
+
+.w-49{
+  width: 49%;
+}
+
+.m-left-2{
+  margin-left: 2%;
+}
+
+.img-main{
+  width: 100%;
+}
