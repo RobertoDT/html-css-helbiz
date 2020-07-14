@@ -146,11 +146,44 @@ a {
   transform: translateX(-50%);
 }
 
-
-
 .hero-main .veicoli{
   color: black;
 }
+
+/* terza sezione */
+.smart{
+  margin-top: 300px;
+  height: 500px;
+  background-image: url("../img/monopattino-natura.jpg");
+  position: relative;
+}
+
+.testo{
+  width: 35%;
+  position: absolute;
+  top: 20%;
+  right: 10%;
+}
+
+.smart h2{
+  font-size: 40px;
+  color: white;
+}
+
+.smart p{
+  font-size: 20px;
+  color: white;
+  margin: 30px 0;
+}
+
+.smart a{
+  color: white;
+}
+
+.white{
+  color: white;
+}
+
 /* smartphone */
 
 @media screen and (max-width: 768px){
