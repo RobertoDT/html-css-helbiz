@@ -93,7 +93,7 @@ a {
 
 
 /* MAIN */
-
+/* prima sezione */
 .logo-main{
   width: 200px;
   margin-top: 100px;
@@ -130,4 +130,36 @@ a {
 
 .img-main{
   width: 100%;
+}
+
+/* seconda sezione */
+.hero-main{
+  background-image: url('../img/anziano.jpg');
+  margin-top: 100px;
+  position: relative;
+}
+
+.spec{
+  position:absolute;
+  top: 75%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+
+.hero-main .veicoli{
+  color: black;
+}
+/* smartphone */
+
+@media screen and (max-width: 768px){
+  .hero{
+    height: 500px;
+  }
+
+  .hero-titolo h1{
+    font-size: 30px;
+  }
+
 }
