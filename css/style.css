@@ -152,7 +152,7 @@ a {
 
 /* terza sezione */
 .smart{
-  margin-top: 300px;
+  margin: 300px 0 20px 0;
   height: 500px;
   background-image: url("../img/monopattino-natura.jpg");
   position: relative;
@@ -161,23 +161,18 @@ a {
 .testo{
   width: 35%;
   position: absolute;
-  top: 20%;
+  top: 50%;
   right: 10%;
+  transform: translateY(-50%);
 }
 
 .smart h2{
   font-size: 40px;
-  color: white;
 }
 
 .smart p{
   font-size: 20px;
-  color: white;
   margin: 30px 0;
-}
-
-.smart a{
-  color: white;
 }
 
 .white{
